@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/light_grey"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="4dp"
+    android:backgroundTint="@color/white">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:maxWidth="170dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:hint="Title"
+            android:textColorHint="@color/light_grey"
+            android:text="Our Father"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/content"
+            android:maxWidth="170dp"
+            android:maxHeight="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="4dp"
+            android:hint="Note"
+            android:textColorHint="@color/light_grey"
+            android:text="Our Father, who art in heaven, hallowed be thy name; thy kingdom come; thy will be done on earth as it is in heaven. Give us this day our daily bread; and forgive us our trespasses as we forgive those who trespass against us; and lead us not into temptation, but deliver us from evil. Amen."
+            android:textSize="16sp"
+            android:textColor="@color/dark_grey"
+            android:maxLines="11"
+            android:ellipsize="end"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
